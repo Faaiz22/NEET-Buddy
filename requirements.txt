@@ -1,9 +1,3 @@
 streamlit
-sentence-transformers
-faiss-cpu
-PyMuPDF==1.23.8
-numpy
-torch
-transformers
-pillow
 pandas
+numpy
