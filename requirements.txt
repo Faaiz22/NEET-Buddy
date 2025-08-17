@@ -1,7 +1,7 @@
 streamlit
 sentence-transformers
 faiss-cpu
-PyMuPDF
+PyMuPDF==1.23.8
 numpy
 torch
 transformers
