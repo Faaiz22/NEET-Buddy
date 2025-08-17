@@ -1,4 +1,12 @@
-import fitz  # PyMuPDF
+try:
+    import fitz  # PyMuPDF
+except ImportError:
+    try:
+        import PyMuPDF as fitz
+    except ImportError:
+        st.error("PyMuPDF not installed. Please install it using: pip install PyMuPDF")
+        st.stop()
+
 import os
 import pickle
 from sentence_transformers import SentenceTransformer
