@@ -1,10 +1,9 @@
 streamlit
 sentence-transformers
 faiss-cpu
-pymupdf
+PyMuPDF
 numpy
 torch
 transformers
 pillow
 pandas
-pickle-mixin
